@@ -1,0 +1,102 @@
+* {
+    background-image: none;
+    font-size: 22px;
+}
+
+window {
+    background-color: rgba(0,0,0,0.5);
+}
+
+button {
+    color: white;
+    background-color: #1D2021;
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    animation: gradient_f 20s ease-in infinite;
+}
+
+button:focus {
+    background-color: #B8BB26;
+    background-size: 30%;
+}
+
+button:hover {
+    background-color: #B8BB26;
+    background-size: 40%;
+    border-radius: 15px;
+    animation: gradient_f 10s ease-in infinite;
+    /* transition: all 0.1s cubic-bezier(.55,0.0,.28,1.682); */
+}
+
+button:hover#lock {
+    border-radius: 15px;
+    margin : 248.4 0px 248.4 302.4px;
+}
+
+button:hover#logout {
+    border-radius: 15px;
+    margin : 248.4 0px 248.4 0px;
+}
+
+button:hover#suspend {
+    border-radius: 15px;
+    margin : 248.4 0px 248.4 0px;
+}
+
+button:hover#shutdown {
+    border-radius: 15px;
+    margin : 248.4 0px 248.4 0px;
+}
+
+button:hover#hibernate {
+    border-radius: 15px;
+    margin : 248.4 0px 248.4 0px;
+}
+
+button:hover#reboot {
+    border-radius: 15px;
+    margin : 248.4 302.4px 248.4 0px;
+}
+
+#lock {
+    background-image: image(url("/home/karadi/.config/wlogout/icons/lock_white.png"), url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    border-radius: 21px 0px 0px 21px;
+    margin : 302.4px 0px 302.4px 302.4px;
+}
+
+#logout {
+    background-image: image(url("/home/karadi/.config/wlogout/icons/logout_white.png"), url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 302.4px 0px 302.4px 0px;
+}
+
+#suspend {
+    background-image: image(url("/home/karadi/.config/wlogout/icons/suspend_white.png"), url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 302.4px 0px 302.4px 0px;
+}
+
+#shutdown {
+    background-image: image(url("/home/karadi/.config/wlogout/icons/shutdown_white.png"), url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 302.4px 0px 302.4px 0px;
+}
+
+#hibernate {
+    background-image: image(url("/home/karadi/.config/wlogout/icons/hibernate_white.png"), url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 302.4px 0px 302.4px 0px;
+}
+
+#reboot {
+    background-image: image(url("/home/karadi/.config/wlogout/icons/reboot_white.png"), url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    border-radius: 0px 21px 21px 0px;
+    margin : 302.4px 302.4px 302.4px 0px;
+}

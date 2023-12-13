@@ -1,0 +1,62 @@
+$date
+	Thu Nov  9 22:57:55 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module i2c_tb $end
+$var wire 1 ! SDA_tb $end
+$var wire 1 " SCL_tb $end
+$var reg 1 # clk_tb $end
+$var reg 1 $ en_tb $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ en $end
+$var parameter 8 % S_IDLE $end
+$var parameter 8 & S_START $end
+$var reg 1 " SCL_out $end
+$var reg 1 ! SDA_out $end
+$var reg 8 ' next_state [7:0] $end
+$var reg 8 ( state [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+bx (
+bx '
+0$
+0#
+x"
+x!
+$end
+#5
+b0 '
+1#
+#10
+0#
+1$
+#15
+1#
+#20
+0#
+#25
+1#
+#30
+0#
+#35
+1#
+#40
+0#
+#45
+1#
+#50
+0#

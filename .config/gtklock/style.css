@@ -1,0 +1,19 @@
+
+#clock-label {
+  font-weight: bold;
+  font-size: 175px;
+  margin-bottom:100px;
+}
+
+#input-label {
+  font-size: 18px;
+}
+
+window {
+   background-color: rgba (29, 32, 33, 0.95);
+   /* background-image: url("/home/karadi/Pictures/wall.jpeg"); */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}

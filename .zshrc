@@ -3,6 +3,7 @@ alias yaay="yay -S"
 alias yeet="yay -R"
 alias conf="cd ~/.config/ && nvim ."
 alias update="sudo pacman -Syu"
+alias find-key="xev -event keyboard"
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH

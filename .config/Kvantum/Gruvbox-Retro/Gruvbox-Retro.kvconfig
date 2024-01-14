@@ -96,7 +96,7 @@ progress.indicator.text.color=#fbf1c7
 
 [Hacks]
 transparent_ktitle_label=true
-transparent_dolphin_view=false
+transparent_dolphin_view=true
 transparent_pcmanfm_sidepane=true
 blur_translucent=false
 transparent_menutitle=true
@@ -110,7 +110,7 @@ lxqtmainmenu_iconsize=22
 normal_default_pushbutton=true
 single_top_toolbar=true
 tint_on_mouseover=0
-transparent_pcmanfm_view=false
+transparent_pcmanfm_view=true
 no_selection_tint=true
 transparent_arrow_button=true
 blur_only_active_window=false

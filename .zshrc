@@ -4,6 +4,7 @@ alias yeet="yay -R"
 alias conf="cd ~/.config/ && nvim ."
 alias update="sudo pacman -Syu"
 alias find-key="xev -event keyboard"
+alias pick-color="xcolor -s"
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -88,7 +89,7 @@ export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='nvim'
 else
   export EDITOR='nvim'
 fi
@@ -158,3 +159,4 @@ pokemon-colorscripts --no-title -r 1,3,6
 
 #Display random gifs
 #kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
+export QT_QPA_PLATFORMTHEME=gtk2

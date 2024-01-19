@@ -5,7 +5,7 @@
 /* widget text/foreground color */
 @define-color theme_fg_color #ddc7a1;
 /* text color for entries, views and content in general */
-@define-color theme_text_color #ddc7a1;
+define-color theme_text_color #ddc7a1;
 /* widget base background color */
 @define-color theme_bg_color #1d2021;
 /* text widgets and the like base background color */
@@ -6174,6 +6174,7 @@ popover.entry-completion > contents {
 
 .nautilus-window .nautilus-grid-view.view {
   margin: 0 6px 6px;
+  padding: 0;
 }
 
 .nautilus-window .nautilus-grid-view.view,

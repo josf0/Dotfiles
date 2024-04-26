@@ -1,3 +1,5 @@
+alias hotspot-up="nmcli connection up hotspot"
+alias hotspot-down="nmcli connection down hotspot"
 alias nv=nvim
 alias yaay="yay -S"
 alias yeet="yay -R"

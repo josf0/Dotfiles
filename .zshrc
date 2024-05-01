@@ -5,7 +5,7 @@ alias nv=nvim
 alias yaay="yay -S"
 alias yeet="yay -R"
 alias conf="cd ~/.config/ && nvim ."
-alias update="sudo pacman -Syu"
+alias update="sudo pacman -Syu && yay"
 alias find-key="xev -event keyboard"
 alias pick-color="xcolor -s"
 

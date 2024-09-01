@@ -27,7 +27,6 @@
   "telescope.nvim": { "branch": "master", "commit": "5972437de807c3bc101565175da66a1aa4f8707a" },
   "transparent.nvim": { "branch": "main", "commit": "8a2749a2fa74f97fe6557f61b89ac7fd873f3c21" },
   "ui": { "branch": "v2.0", "commit": "7b3225264af17a9e0aff0b4fd2a0fac90b73db53" },
-  "verilog_systemverilog.vim": { "branch": "master", "commit": "74e533b5f8f169af86af27d7206814103b35efcb" },
   "which-key.nvim": { "branch": "main", "commit": "bfec3d6bc0a9b0b2cb11644642f78c2c3915eef0" },
   "wilder.nvim": { "branch": "master", "commit": "679f348dc90d80ff9ba0e7c470c40a4d038dcecf" }
 }

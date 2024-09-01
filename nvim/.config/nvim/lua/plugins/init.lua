@@ -6,9 +6,7 @@ local default_plugins = {
   
   { "xiyaowong/transparent.nvim", lazy=false},
   { "preservim/tagbar", lazy=false},
-  { "vhda/verilog_systemverilog.vim", lazy=false },
   { "gelguy/wilder.nvim", lazy=false},
-  { "neovim/nvim-lspconfig", lazy=false},
 
   {
     "NvChad/base46",

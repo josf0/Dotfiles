@@ -126,6 +126,6 @@ export LM_LICENSE_FILE=~/Licences/Xilinx.lic
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 alias conf="cd ~/.config/ && nvim"
+alias conf_nv="cd ~/.config/nvim && nvim"
 
-
-export PATH="$PATH:~/Licenses/verible/bin/"
+export PATH="$PATH:/home/karadi/.local/share/nvim/mason/bin/"

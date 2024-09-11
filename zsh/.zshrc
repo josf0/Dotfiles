@@ -89,11 +89,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='nvim'
-fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='nvim'
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -105,21 +105,10 @@ fi
 # - $ZSH_CUSTOM/aliases.zsh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Personal configs
-alias nv="nvim"
-alias update="sudo apt-get update && sudo apt-get upgrade"
-alias maven_connect_server="sudo openvpn --config ~/Licenses/sslvpn-br51_jjohnson-client-config.ovpn"
-alias maven_enter_server="ssh -X -C JJohnson@172.16.17.6"
-
-alias ise="source /opt/Xilinx/14.7/ISE_DS/settings64.sh && ise"
-export LM_LICENSE_FILE=~/Licences/Xilinx.lic
-
-export PATH="$PATH:/opt/nvim-linux64/bin"
-alias conf="cd ~/.config/ && nvim"
-alias conf_nv="cd ~/.config/nvim && nvim"
-
-export PATH="$PATH:/home/karadi/.local/share/nvim/mason/bin"
